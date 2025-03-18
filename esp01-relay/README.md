@@ -23,6 +23,11 @@ The ESP-01 module is programmed using **Arduino Uno** and operates independently
 5. **The BC548B transistor** is used to drive the relay.
 6. **The relay output** controls connected devices by switching them on or off.
 
+   ![sh](https://github.com/user-attachments/assets/8c5af2f6-5f89-4531-bc5d-f4a03e32427b)
+   
+   ![2d](https://github.com/user-attachments/assets/c7ef7e51-4846-4824-ad03-b69e3eb7d9a5)
+
+
 ## 🔧 Programming the ESP-01 with Arduino
 Follow these steps to program the ESP-01:
 
@@ -35,6 +40,10 @@ Follow these steps to program the ESP-01:
      - **Arduino TX (Pin 1)** → **ESP-01 RX**   
      - **GPIO0 → GND** (To enter programming mode)
      - **If this connection does not work, try RX-RX and TX-TX instead.**
+     
+
+       ![images](https://github.com/user-attachments/assets/7c7fccfe-4f15-405d-8f39-8ba75f85b202)
+
 2. **Configure the following settings in Arduino IDE:**
    - Board: `Generic ESP8266 Module`
    - Flash Mode: `DOUT`
